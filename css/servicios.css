@@ -1,0 +1,71 @@
+.navbar-default {
+    background: #252440;
+    border: none;
+    box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
+    margin: 0!important;
+    height: 58px;
+}
+
+.navbar-default .navbar-brand {
+    color: #28a7e9;
+    font-size: 30px;
+    font-weight: bold;
+    height: 20px;
+    line-height: 25px;
+}
+
+.navbar-default .nav li a {
+    color: #fff !important;
+    font-size: 13px;
+    font-weight: bold;
+    height: 20px;
+    line-height: 40px;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus,
+.navbar-default .nav li a.current {
+    color: #252440;
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
+    padding-top: 1px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background: #fff;
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: transparent
+}
+
+.galery {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.img-responsive {
+    margin-top: -7px;
+}
+
+@media (min-width: 100%) {
+    .container {
+        width: auto !important;
+    }
+}
+
+@media(min-width:100%) {
+    .navbar-default {
+        width: auto !important;
+    }
+}
+
+@media(min-width:100%) {
+    .galery {
+        width: auto !important;
+    }
+}
