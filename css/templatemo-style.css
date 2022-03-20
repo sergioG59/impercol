@@ -511,6 +511,8 @@ footer {
         height: auto;
         line-height: 2em;
         text-align: center;
+        color: black;
+        background-color: #fff;
     }
     #feature,
     #pricing,
