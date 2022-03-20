@@ -8,7 +8,7 @@ const message = document.querySelector("#mensaje");
 
 submitButon.addEventListener("click", onSubmit);
 submitButon.getElementsByClassName("#submit")[0].addEventListener("click", capture);
-
+$("#submit").on("click" ,capture );
 function onSubmit(event) {
     event.preventDefault();
     console.log("Formulario de contacto IMPERCOL S.A ");
