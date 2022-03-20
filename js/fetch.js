@@ -7,6 +7,7 @@ const message = document.querySelector("#mensaje");
 
 
 submitButon.addEventListener("click", onSubmit);
+submitButon.getElementsByClassName("#submit")[0].addEventListener("click", capture);
 
 function onSubmit(event) {
     event.preventDefault();
