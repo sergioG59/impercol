@@ -16,7 +16,7 @@ function onSubmit(event) {
     console.log("Asunto:", Asunto.value);
     console.log("message:", mensaje.value);
 
-    const URL = "http://localhost:3000/form";
+    const URL = "https://zen-joliot-2182a3.netlify.app/";
 
     const body = {
         nombre: nombre.value,
