@@ -1,4 +1,4 @@
-const http = require('https');
+const http = require('http');
 const conection = require('./conection')
 
 const hostname = '127.0.0.1';
@@ -7,7 +7,7 @@ const port = 3000;
 
 
 
-const server = https.createServer(async(req, res) => {
+const server = http.createServer(async(req, res) => {
     console.log(req.method);
     if (req.url === "/form" && req.method === "POST") {
         //Hyper Text Transfer Protocol
