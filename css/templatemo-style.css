@@ -1,10 +1,4 @@
-/*
 
-Boxer Template
-
-http://www.templatemo.com/tm-446-boxer
-
-*/
 
 body {
     background: #fff;
@@ -166,11 +160,11 @@ img {
 /* start navigation */
 
 .navbar-default {
-    background: #252440;
+      background: #252440;
     border: none;
     box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
-    margin: 0!important;
     height: 20px;
+    display: flexbox;
 }
 
 .navbar-default .navbar-brand {
@@ -182,32 +176,31 @@ img {
 }
 
 .navbar-default .nav li a {
-    color: #fff !important;
+ color: #fff;
     font-size: 13px;
     font-weight: bold;
-    height: 20px;
     line-height: 40px;
 }
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus,
 .navbar-default .nav li a.current {
-    color: #252440;
+    color: #fff;
 }
 
 .navbar-default .navbar-toggle {
     border: none;
-    padding-top: 1px;
+   
 }
 
 .navbar-default .navbar-toggle .icon-bar {
     background: #fff;
-    border-color: transparent;
+
 }
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: transparent
+    background-color: #fff;
 }
 
 
