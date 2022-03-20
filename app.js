@@ -1,7 +1,7 @@
 const http = require('http');
 const conection = require('./conection')
 
-const hostname = '127.0.0.1';
+const hostname = 'https://zen-joliot-2182a3.netlify.app/';
 const port = 3000;
 
 
@@ -45,5 +45,5 @@ const server = http.createServer(async(req, res) => {
 });
 
 server.listen(port, hostname, () => {
-    console.log(`El servidor se está ejecutando en http://${hostname}:${port}/`);
+    console.log(`El servidor se está ejecutando en https://${zen-joliot-2182a3.netlify.app/}:${port}/`);
 });
