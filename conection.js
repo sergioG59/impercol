@@ -1,6 +1,6 @@
 var mysql = require('mysql2');
 
-var conection = mysql.createConnection({ host: "localhost", database: "impercol", user: "root", password: "admin" });
+var conection = mysql.createConnection({ host: "https://zen-joliot-2182a3.netlify.app/", database: "impercol", user: "root", password: "admin" });
 
 conection.connect((error) => {
 
