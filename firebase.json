@@ -2,11 +2,25 @@
     "hosting": {
         "public": "./",
         "ignore": [
+
             "firebase.json",
             "**/.*",
             "**/node_modules/**"
-
         ]
+    },
+    "database": {
+        "rules": "database.rules.json",
+        "type": "service_account",
+        "project_id": "imper-col",
+        "private_key_id": "530d282ae559627d2bbb540f99c2e9e365a291bc",
+        "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCyuR0/odw603nA\nG0AKsn2msGSEyPEdV4xxIvUjvAe4WISU/og30pIuaFUMD8IJDK3JstE7F32GGCo/\nbJa36e9Eu63ABBbhIUDQ8l0J9PwZ41nh2E3cJEmTTcEkibIKoI323e8PJRynX9AI\nXEMp4gN2hmbN3/Ncpa2r6YsJyAP/dcb3MNNeiK9GT1k+dfq+VaB/umf0Xa3ubZhi\ndfk1gU+dUG9SfMxxr9tg1OZWMhY3QQRQLgjPVtbbefAWBxRbSOU4jSSxvvjfK9h0\nLBV2PsM3aVdjRHkbg3/VSpAxSbBAYTyjSL2eqBizrXp47ETG4PZaHsyoegJHze5A\n6vEB0ptLAgMBAAECggEAAN2D+aL+e0U7CyxdAIN06uHJJgCh2wScy1vVRQGFjHJw\nd31nlzsy3JYO7cDrxxOjicNbkpL4CoMQChn4ygldA7LghS2TFy7yiEoMG967eiKc\nJ+URgQkNJCRVuygOT4SpSBjMYTRKsbkoiDA692pyBHJjiaHVpOawDKuHGIDtgaCd\nxpeGVPxSXSk/+flZuuhjGVW8+snVQqfRFHIiRV5gMohOGfJiK18nM5E95JNV6D2H\nbtX+PNpXDfN1QnwIpL5QpRHccp/QJS61VIuMQ9FCAGrisLUZVmcOammrJUum01j7\nGo2zqdtLK3zhtSupadNeTy8QbimgpE5afF9bj/ZJxQKBgQDlLjgj8XpfaIGu3AIt\nxA8lOZlgRPYzUWvCICujuCewzlV15yCwDmOvcnHpdFiJa5UwW22lt1Rt0m6Xd/pQ\nmuD9wTAl1+ie+r4T0wdEoC2c2QkfHqL9ww8oR5wPk8jn/t+0iyuL/HuDLEGSHlzk\n4uMjIgZoR4ApQ52Dp6LJgvdgtwKBgQDHo0sKgZYOxViRRgftXUG3SFusVUYJq2MH\nV9Ivz0i0bKDoRe+psi9j6DhW/RjRUB6of1cKENjF5/SBPwNiEMwegLeqocu500f/\nzle3nHFOU1U9re2HCwGEwnWn7465FqjIIIAYQKpsuDEYURB6CpJUghnVOsRu+YsH\nBI1ZqbzeDQKBgBB2tYm/ey8HbumE3JM1FnFyJdaInbcqDjev3/Ku9Ar7h6AkrnB3\nWCnuash+ly2oENucddAFz4bkKxWuhMjtl2QjULYnQIrLMIR0EH2ZlC1EWidmKAda\nz+fw3QExeKlR4fgyVzqDNMxDjaJVlA7NTcvkUdmD6W0Ncm9Wx5b6VZMZAoGBAIqy\n7IPUHEkO2sWzffZvgCSyZN6KMCqvpBGJ9kG5Ja4UeoZlcGjZnwsuX1YwaXmizGoM\nbpBTvAdjbAAPo24SdX4Lt48Y8c2c+LzEwzSRwDbGtsYvfIMCJn/yCoQub14wW/sO\neXBgHQeDwLhAOc5QYfHMod3/AlKHlQu/IeVVhB5RAoGBAJt7S5P69AFel/Gvr24k\n8hCEzSTEJ4Ixuau4SMndRi+oyLRmX/mSjhcDL3sZB0xDau6dis5jbBroNwI75WvO\nj9vxu7+UrIbs9dLeug2UmbnOnZmAg/nU9KKgRD/jU0nHA5iTUHP2j232ADJtu2yw\nzcTkjQq24Ne0C9/4vthfSlH1\n-----END PRIVATE KEY-----\n",
+        "client_email": "firebase-adminsdk-gy3a5@imper-col.iam.gserviceaccount.com",
+        "client_id": "114058715273004808424",
+        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+        "token_uri": "https://oauth2.googleapis.com/token",
+        "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+        "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-gy3a5%40imper-col.iam.gserviceaccount.com"
 
     }
+
 }

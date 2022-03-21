@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "imper-col"
-  }
+    "default": "imper-col",
+    "impercol": "imper-col"
+  },
+  "targets": {}
 }
